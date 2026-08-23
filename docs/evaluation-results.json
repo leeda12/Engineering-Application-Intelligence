@@ -1,0 +1,100 @@
+{
+  "recall_at_8": 1.0,
+  "precision_at_8": 0.21875,
+  "mean_reciprocal_rank": 0.6532738095238095,
+  "correct_current_revision": 1,
+  "citation_validity": 1.0,
+  "unsupported_claim_count": 0,
+  "top_result_ordering": {
+    "EVAL-01": [
+      "PRJ-024",
+      "BUL-FAIL-003",
+      "PROC-REV-001",
+      "BUL-FAIL-004",
+      "REV-003",
+      "BUL-FAIL-002",
+      "REV-002",
+      "REV-001"
+    ],
+    "EVAL-02": [
+      "PRJ-024",
+      "PRJ-006",
+      "PRJ-005",
+      "PRJ-019",
+      "PRJ-004",
+      "PRJ-013",
+      "PRJ-010",
+      "PRJ-012"
+    ],
+    "EVAL-03": [
+      "VAL-003",
+      "VAL-002",
+      "PRJ-024",
+      "PRJ-016",
+      "PRJ-005",
+      "VAL-001",
+      "MAN-CONTROL-001",
+      "MAN-THERM-002"
+    ],
+    "EVAL-04": [
+      "REV-002",
+      "BUL-FAIL-001",
+      "REV-001",
+      "MAN-THERM-002",
+      "VAL-006",
+      "MAN-THERM-001",
+      "BUL-FAIL-003",
+      "VAL-005"
+    ],
+    "EVAL-05": [
+      "BUL-FAIL-002",
+      "VAL-004",
+      "PRJ-007",
+      "VAL-002",
+      "VAL-003",
+      "VAL-001",
+      "BUL-FAIL-001",
+      "VAL-005"
+    ],
+    "EVAL-06": [
+      "MAN-THERM-002",
+      "PRJ-012",
+      "PRJ-005",
+      "PRJ-010",
+      "PRJ-006",
+      "PRJ-001",
+      "PRJ-016",
+      "PRJ-004"
+    ],
+    "EVAL-07": [
+      "REV-002",
+      "BUL-FAIL-001",
+      "REV-001",
+      "MAN-THERM-001",
+      "MAN-THERM-002",
+      "BUL-FAIL-003",
+      "VAL-001",
+      "BUL-FAIL-004"
+    ],
+    "EVAL-08": [
+      "VAL-003",
+      "MAN-THERM-002",
+      "VAL-006",
+      "VAL-002",
+      "VAL-001",
+      "PRJ-016",
+      "PRJ-007",
+      "BUL-FAIL-001"
+    ]
+  },
+  "app_001_project_ordering": [
+    "PRJ-024",
+    "PRJ-010",
+    "PRJ-005",
+    "PRJ-013",
+    "PRJ-004",
+    "PRJ-006",
+    "PRJ-022",
+    "PRJ-012"
+  ]
+}

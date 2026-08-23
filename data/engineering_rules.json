@@ -1,0 +1,112 @@
+{
+  "calculation_version": "NTS-CALC-1.0",
+  "source_ids": [
+    "MAN-THERM-002",
+    "MAN-CONTROL-001",
+    "VAL-001",
+    "VAL-002",
+    "VAL-003",
+    "VAL-005",
+    "BUL-FAIL-003",
+    "BUL-FAIL-004"
+  ],
+  "coolants": {
+    "water": {
+      "0": {
+        "density_kg_l": 0.998,
+        "cp_kj_kgk": 4.18,
+        "source_id": "MAN-THERM-002"
+      }
+    },
+    "propylene_glycol": {
+      "20": {
+        "density_kg_l": 1.018,
+        "cp_kj_kgk": 3.82,
+        "source_id": "MAN-THERM-002"
+      },
+      "25": {
+        "density_kg_l": 1.023,
+        "cp_kj_kgk": 3.72,
+        "source_id": "MAN-THERM-002"
+      },
+      "30": {
+        "density_kg_l": 1.029,
+        "cp_kj_kgk": 3.61,
+        "source_id": "MAN-THERM-002"
+      },
+      "35": {
+        "density_kg_l": 1.035,
+        "cp_kj_kgk": 3.48,
+        "source_id": "MAN-THERM-002"
+      }
+    }
+  },
+  "validated_envelope": {
+    "min_heat_kw": 40,
+    "max_heat_kw": 400,
+    "min_inlet_c": 15,
+    "max_inlet_c": 30,
+    "max_ambient_c": 42,
+    "max_glycol_pct": 35,
+    "source_id": "MAN-THERM-002"
+  },
+  "architectures": {
+    "single_loop": {
+      "name": "Aquila SL-90 single-loop CDU",
+      "topology": "One shared customer cooling circuit with no hydraulic isolation heat exchanger.",
+      "topology_source_id": "MAN-THERM-002",
+      "capacity_kw": 120,
+      "max_flow_lpm": 150,
+      "pressure_drop_kpa": 24,
+      "voltages": [
+        208,
+        400
+      ],
+      "redundancy": [
+        "none",
+        "n+1_pumps"
+      ],
+      "min_width_mm": 620,
+      "min_depth_mm": 900,
+      "min_height_mm": 1750
+    },
+    "dual_loop": {
+      "name": "Borealis DL-240 facility-isolated CDU",
+      "topology": "Two hydraulically isolated facility-side and customer-side circuits exchanging heat only across a plate heat exchanger.",
+      "topology_source_id": "MAN-THERM-002",
+      "capacity_kw": 260,
+      "max_flow_lpm": 310,
+      "pressure_drop_kpa": 32,
+      "voltages": [
+        400,
+        480
+      ],
+      "redundancy": [
+        "n+1_pumps",
+        "2n"
+      ],
+      "min_width_mm": 980,
+      "min_depth_mm": 1100,
+      "min_height_mm": 1980
+    },
+    "modular_array": {
+      "name": "Cirrus MA-400 modular cooling array",
+      "topology": "A facility header feeding parallel isolated cooling modules with separate customer branches.",
+      "topology_source_id": "MAN-THERM-002",
+      "capacity_kw": 400,
+      "max_flow_lpm": 480,
+      "pressure_drop_kpa": 45,
+      "voltages": [
+        400,
+        480
+      ],
+      "redundancy": [
+        "n+1_pumps",
+        "2n"
+      ],
+      "min_width_mm": 1600,
+      "min_depth_mm": 1200,
+      "min_height_mm": 2100
+    }
+  }
+}

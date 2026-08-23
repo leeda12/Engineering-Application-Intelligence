@@ -1,0 +1,12 @@
+{
+  "model_id": "Xenova/all-MiniLM-L6-v2",
+  "upstream_model_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+  "onnx_file": "onnx/model_quantized.onnx",
+  "dimensions": 384,
+  "pooling": "mean",
+  "normalize": true,
+  "license": "Apache-2.0",
+  "purpose": "semantic evidence retrieval only",
+  "runtime_remote_models_allowed": false
+}

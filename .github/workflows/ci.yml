@@ -1,0 +1,19 @@
+name: local-validation-template
+on: [workflow_dispatch]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      POSTGRES_PASSWORD: local-ci-only-password
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 24, cache: npm}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.13"}
+      - run: npm ci && npm --prefix frontend ci
+      - run: python -m pip install -r backend/requirements.txt
+      - run: python scripts/generate_fixtures.py
+      - run: node scripts/embed-corpus.mjs
+      - run: python scripts/validate_postgres.py
+      - run: npm run validate

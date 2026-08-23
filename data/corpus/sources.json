@@ -1,0 +1,1196 @@
+[
+  {
+    "source_id": "PRJ-001",
+    "title": "Project Polaris 01 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2022-02-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "single_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 72 kW at 90 L/min using 25% propylene glycol. Architecture Aquila SL-90 single-loop CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 72,
+      "flow_lpm": 90
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-001"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 72,
+      "flow_lpm": 90,
+      "inlet_temp_c": 19,
+      "outlet_temp_c": 27,
+      "pressure_drop_kpa": 24,
+      "voltage_v": 208,
+      "frequency_hz": 50,
+      "width_mm": 700,
+      "depth_mm": 900,
+      "height_mm": 1750,
+      "redundancy": "none",
+      "communication_protocol": "BACnet/IP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-002",
+    "title": "Project Polaris 02 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2023-03-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "single_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 95 kW at 112 L/min using 25% propylene glycol. Architecture Aquila SL-90 single-loop CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 95,
+      "flow_lpm": 112
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-002"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 95,
+      "flow_lpm": 112,
+      "inlet_temp_c": 20,
+      "outlet_temp_c": 28,
+      "pressure_drop_kpa": 26,
+      "voltage_v": 208,
+      "frequency_hz": 50,
+      "width_mm": 780,
+      "depth_mm": 900,
+      "height_mm": 1750,
+      "redundancy": "none",
+      "communication_protocol": "Modbus TCP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-003",
+    "title": "Project Polaris 03 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2024-04-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "single_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 118 kW at 142 L/min using water. Architecture Aquila SL-90 single-loop CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 118,
+      "flow_lpm": 142
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-003"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 118,
+      "flow_lpm": 142,
+      "inlet_temp_c": 21,
+      "outlet_temp_c": 29,
+      "pressure_drop_kpa": 22,
+      "voltage_v": 208,
+      "frequency_hz": 50,
+      "width_mm": 620,
+      "depth_mm": 900,
+      "height_mm": 1750,
+      "redundancy": "none",
+      "communication_protocol": "BACnet/IP",
+      "environmental_rating": "IP44"
+    }
+  },
+  {
+    "source_id": "PRJ-004",
+    "title": "Project Polaris 04 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2025-05-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "dual_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 145 kW at 170 L/min using 25% propylene glycol. Architecture Borealis DL-240 facility-isolated CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 145,
+      "flow_lpm": 170
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-004"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 145,
+      "flow_lpm": 170,
+      "inlet_temp_c": 22,
+      "outlet_temp_c": 26,
+      "pressure_drop_kpa": 32,
+      "voltage_v": 400,
+      "frequency_hz": 60,
+      "width_mm": 1060,
+      "depth_mm": 1100,
+      "height_mm": 1980,
+      "redundancy": "n+1_pumps",
+      "communication_protocol": "Modbus TCP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-005",
+    "title": "Project Polaris 05 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2021-06-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "dual_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 205 kW at 245 L/min using 25% propylene glycol. Architecture Borealis DL-240 facility-isolated CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 205,
+      "flow_lpm": 245
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-005"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 205,
+      "flow_lpm": 245,
+      "inlet_temp_c": 18,
+      "outlet_temp_c": 27,
+      "pressure_drop_kpa": 34,
+      "voltage_v": 400,
+      "frequency_hz": 50,
+      "width_mm": 1140,
+      "depth_mm": 1100,
+      "height_mm": 1980,
+      "redundancy": "n+1_pumps",
+      "communication_protocol": "BACnet/IP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-006",
+    "title": "Project Polaris 06 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2022-07-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "dual_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 255 kW at 300 L/min using water. Architecture Borealis DL-240 facility-isolated CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 255,
+      "flow_lpm": 300
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-006"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 255,
+      "flow_lpm": 300,
+      "inlet_temp_c": 19,
+      "outlet_temp_c": 28,
+      "pressure_drop_kpa": 30,
+      "voltage_v": 400,
+      "frequency_hz": 50,
+      "width_mm": 980,
+      "depth_mm": 1100,
+      "height_mm": 1980,
+      "redundancy": "n+1_pumps",
+      "communication_protocol": "Modbus TCP",
+      "environmental_rating": "IP44"
+    }
+  },
+  {
+    "source_id": "PRJ-007",
+    "title": "Project Polaris 07 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2023-08-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "dual_loop",
+    "text": "Failed validation after pump inlet cavitation at the specified low static head; corrective bulletin applies. Design duty 160 kW at 155 L/min using 25% propylene glycol. Architecture Borealis DL-240 facility-isolated CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 160,
+      "flow_lpm": 155
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "failed",
+    "validation_evidence_ids": [
+      "VAL-004",
+      "BUL-FAIL-002"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 160,
+      "flow_lpm": 155,
+      "inlet_temp_c": 20,
+      "outlet_temp_c": 29,
+      "pressure_drop_kpa": 32,
+      "voltage_v": 400,
+      "frequency_hz": 50,
+      "width_mm": 1060,
+      "depth_mm": 1100,
+      "height_mm": 1980,
+      "redundancy": "n+1_pumps",
+      "communication_protocol": "BACnet/IP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-008",
+    "title": "Project Polaris 08 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2024-09-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "single_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 88 kW at 108 L/min using 25% propylene glycol. Architecture Aquila SL-90 single-loop CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 88,
+      "flow_lpm": 108
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-002"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 88,
+      "flow_lpm": 108,
+      "inlet_temp_c": 21,
+      "outlet_temp_c": 26,
+      "pressure_drop_kpa": 26,
+      "voltage_v": 208,
+      "frequency_hz": 60,
+      "width_mm": 780,
+      "depth_mm": 900,
+      "height_mm": 1750,
+      "redundancy": "none",
+      "communication_protocol": "Modbus TCP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-009",
+    "title": "Project Polaris 09 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2025-01-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "modular_array",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 310 kW at 365 L/min using water. Architecture Cirrus MA-400 modular cooling array.",
+    "applicable_constraints": {
+      "heat_load_kw": 310,
+      "flow_lpm": 365
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-003"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 310,
+      "flow_lpm": 365,
+      "inlet_temp_c": 22,
+      "outlet_temp_c": 27,
+      "pressure_drop_kpa": 43,
+      "voltage_v": 480,
+      "frequency_hz": 50,
+      "width_mm": 1600,
+      "depth_mm": 1200,
+      "height_mm": 2100,
+      "redundancy": "2n",
+      "communication_protocol": "BACnet/IP",
+      "environmental_rating": "IP44"
+    }
+  },
+  {
+    "source_id": "PRJ-010",
+    "title": "Project Polaris 10 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2021-02-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "dual_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 225 kW at 270 L/min using 25% propylene glycol. Architecture Borealis DL-240 facility-isolated CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 225,
+      "flow_lpm": 270
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-004"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 225,
+      "flow_lpm": 270,
+      "inlet_temp_c": 18,
+      "outlet_temp_c": 28,
+      "pressure_drop_kpa": 32,
+      "voltage_v": 400,
+      "frequency_hz": 50,
+      "width_mm": 1060,
+      "depth_mm": 1100,
+      "height_mm": 1980,
+      "redundancy": "n+1_pumps",
+      "communication_protocol": "Modbus TCP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-011",
+    "title": "Project Polaris 11 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2022-03-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "single_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 105 kW at 130 L/min using 25% propylene glycol. Architecture Aquila SL-90 single-loop CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 105,
+      "flow_lpm": 130
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-005"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 105,
+      "flow_lpm": 130,
+      "inlet_temp_c": 19,
+      "outlet_temp_c": 29,
+      "pressure_drop_kpa": 26,
+      "voltage_v": 208,
+      "frequency_hz": 50,
+      "width_mm": 780,
+      "depth_mm": 900,
+      "height_mm": 1750,
+      "redundancy": "none",
+      "communication_protocol": "BACnet/IP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-012",
+    "title": "Project Polaris 12 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2023-04-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "dual_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 175 kW at 210 L/min using water. Architecture Borealis DL-240 facility-isolated CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 175,
+      "flow_lpm": 210
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-006"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 175,
+      "flow_lpm": 210,
+      "inlet_temp_c": 20,
+      "outlet_temp_c": 26,
+      "pressure_drop_kpa": 30,
+      "voltage_v": 400,
+      "frequency_hz": 60,
+      "width_mm": 980,
+      "depth_mm": 1100,
+      "height_mm": 1980,
+      "redundancy": "n+1_pumps",
+      "communication_protocol": "Modbus TCP",
+      "environmental_rating": "IP44"
+    }
+  },
+  {
+    "source_id": "PRJ-013",
+    "title": "Project Polaris 13 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2024-05-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "dual_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 198 kW at 235 L/min using 25% propylene glycol. Architecture Borealis DL-240 facility-isolated CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 198,
+      "flow_lpm": 235
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-001"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 198,
+      "flow_lpm": 235,
+      "inlet_temp_c": 21,
+      "outlet_temp_c": 27,
+      "pressure_drop_kpa": 32,
+      "voltage_v": 400,
+      "frequency_hz": 50,
+      "width_mm": 1060,
+      "depth_mm": 1100,
+      "height_mm": 1980,
+      "redundancy": "n+1_pumps",
+      "communication_protocol": "BACnet/IP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-014",
+    "title": "Project Polaris 14 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2025-06-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "modular_array",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 340 kW at 405 L/min using 25% propylene glycol. Architecture Cirrus MA-400 modular cooling array.",
+    "applicable_constraints": {
+      "heat_load_kw": 340,
+      "flow_lpm": 405
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-002"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 340,
+      "flow_lpm": 405,
+      "inlet_temp_c": 22,
+      "outlet_temp_c": 28,
+      "pressure_drop_kpa": 47,
+      "voltage_v": 400,
+      "frequency_hz": 50,
+      "width_mm": 1760,
+      "depth_mm": 1200,
+      "height_mm": 2100,
+      "redundancy": "2n",
+      "communication_protocol": "Modbus TCP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-015",
+    "title": "Project Polaris 15 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2021-07-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "single_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 65 kW at 80 L/min using water. Architecture Aquila SL-90 single-loop CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 65,
+      "flow_lpm": 80
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-003"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 65,
+      "flow_lpm": 80,
+      "inlet_temp_c": 18,
+      "outlet_temp_c": 29,
+      "pressure_drop_kpa": 22,
+      "voltage_v": 208,
+      "frequency_hz": 50,
+      "width_mm": 620,
+      "depth_mm": 900,
+      "height_mm": 1750,
+      "redundancy": "none",
+      "communication_protocol": "BACnet/IP",
+      "environmental_rating": "IP44"
+    }
+  },
+  {
+    "source_id": "PRJ-016",
+    "title": "Project Polaris 16 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2022-08-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "dual_loop",
+    "text": "Thermal run sheet is absent; record is relevant but ineligible as a recommendation. Design duty 150 kW at 180 L/min using 25% propylene glycol. Architecture Borealis DL-240 facility-isolated CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 150,
+      "flow_lpm": 180
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "missing_evidence",
+    "validation_evidence_ids": [],
+    "project_parameters": {
+      "heat_load_kw": 150,
+      "flow_lpm": 180,
+      "inlet_temp_c": 19,
+      "outlet_temp_c": 26,
+      "pressure_drop_kpa": 32,
+      "voltage_v": 400,
+      "frequency_hz": 60,
+      "width_mm": 1060,
+      "depth_mm": 1100,
+      "height_mm": 1980,
+      "redundancy": "n+1_pumps",
+      "communication_protocol": "Modbus TCP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-017",
+    "title": "Project Polaris 17 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2023-09-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "modular_array",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 275 kW at 325 L/min using 25% propylene glycol. Architecture Cirrus MA-400 modular cooling array.",
+    "applicable_constraints": {
+      "heat_load_kw": 275,
+      "flow_lpm": 325
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-005"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 275,
+      "flow_lpm": 325,
+      "inlet_temp_c": 20,
+      "outlet_temp_c": 27,
+      "pressure_drop_kpa": 47,
+      "voltage_v": 400,
+      "frequency_hz": 50,
+      "width_mm": 1760,
+      "depth_mm": 1200,
+      "height_mm": 2100,
+      "redundancy": "n+1_pumps",
+      "communication_protocol": "BACnet/IP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-018",
+    "title": "Project Polaris 18 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2024-01-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "single_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 125 kW at 150 L/min using water. Architecture Aquila SL-90 single-loop CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 125,
+      "flow_lpm": 150
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-006"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 125,
+      "flow_lpm": 150,
+      "inlet_temp_c": 21,
+      "outlet_temp_c": 28,
+      "pressure_drop_kpa": 22,
+      "voltage_v": 208,
+      "frequency_hz": 50,
+      "width_mm": 620,
+      "depth_mm": 900,
+      "height_mm": 1750,
+      "redundancy": "n+1_pumps",
+      "communication_protocol": "Modbus TCP",
+      "environmental_rating": "IP44"
+    }
+  },
+  {
+    "source_id": "PRJ-019",
+    "title": "Project Polaris 19 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2025-02-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "dual_loop",
+    "text": "Thermally comparable but disqualified for a 480 V-only panel and a 1450 mm width envelope. Design duty 235 kW at 282 L/min using 25% propylene glycol. Architecture Borealis DL-240 facility-isolated CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 235,
+      "flow_lpm": 282
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-001"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 235,
+      "flow_lpm": 282,
+      "inlet_temp_c": 22,
+      "outlet_temp_c": 29,
+      "pressure_drop_kpa": 32,
+      "voltage_v": 480,
+      "frequency_hz": 50,
+      "width_mm": 1450,
+      "depth_mm": 1100,
+      "height_mm": 1980,
+      "redundancy": "n+1_pumps",
+      "communication_protocol": "BACnet/IP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-020",
+    "title": "Project Polaris 20 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2021-03-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "modular_array",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 385 kW at 455 L/min using 25% propylene glycol. Architecture Cirrus MA-400 modular cooling array.",
+    "applicable_constraints": {
+      "heat_load_kw": 385,
+      "flow_lpm": 455
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-002"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 385,
+      "flow_lpm": 455,
+      "inlet_temp_c": 18,
+      "outlet_temp_c": 26,
+      "pressure_drop_kpa": 47,
+      "voltage_v": 480,
+      "frequency_hz": 60,
+      "width_mm": 1760,
+      "depth_mm": 1200,
+      "height_mm": 2100,
+      "redundancy": "2n",
+      "communication_protocol": "Modbus TCP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-021",
+    "title": "Project Polaris 21 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2022-04-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "single_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 115 kW at 138 L/min using water. Architecture Aquila SL-90 single-loop CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 115,
+      "flow_lpm": 138
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-003"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 115,
+      "flow_lpm": 138,
+      "inlet_temp_c": 19,
+      "outlet_temp_c": 27,
+      "pressure_drop_kpa": 22,
+      "voltage_v": 208,
+      "frequency_hz": 50,
+      "width_mm": 620,
+      "depth_mm": 900,
+      "height_mm": 1750,
+      "redundancy": "none",
+      "communication_protocol": "BACnet/IP",
+      "environmental_rating": "IP44"
+    }
+  },
+  {
+    "source_id": "PRJ-022",
+    "title": "Project Polaris 22 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2023-05-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "modular_array",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 290 kW at 340 L/min using 25% propylene glycol. Architecture Cirrus MA-400 modular cooling array.",
+    "applicable_constraints": {
+      "heat_load_kw": 290,
+      "flow_lpm": 340
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-004"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 290,
+      "flow_lpm": 340,
+      "inlet_temp_c": 20,
+      "outlet_temp_c": 28,
+      "pressure_drop_kpa": 45,
+      "voltage_v": 400,
+      "frequency_hz": 50,
+      "width_mm": 1680,
+      "depth_mm": 1200,
+      "height_mm": 2100,
+      "redundancy": "n+1_pumps",
+      "communication_protocol": "Modbus TCP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-023",
+    "title": "Project Polaris 23 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2024-06-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "single_loop",
+    "text": "Completed fictional acceptance validation with traceable thermal and hydraulic evidence. Design duty 82 kW at 100 L/min using 25% propylene glycol. Architecture Aquila SL-90 single-loop CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 82,
+      "flow_lpm": 100
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-005"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 82,
+      "flow_lpm": 100,
+      "inlet_temp_c": 21,
+      "outlet_temp_c": 29,
+      "pressure_drop_kpa": 26,
+      "voltage_v": 208,
+      "frequency_hz": 50,
+      "width_mm": 780,
+      "depth_mm": 900,
+      "height_mm": 1750,
+      "redundancy": "none",
+      "communication_protocol": "BACnet/IP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "PRJ-024",
+    "title": "Project Polaris 24 \u2014 fictional cooling application",
+    "document_type": "historical_project",
+    "revision": "A",
+    "effective_date": "2025-07-15",
+    "locator": "Project summary pp. 1\u20134",
+    "status": "historical",
+    "product_architecture": "dual_loop",
+    "text": "Near-exact current precedent for APP-001 with facility isolation, N+1 pumps, 400 V, IP54, and Modbus TCP. Design duty 180 kW at 240 L/min using water. Architecture Borealis DL-240 facility-isolated CDU.",
+    "applicable_constraints": {
+      "heat_load_kw": 180,
+      "flow_lpm": 240
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    },
+    "validation_outcome": "passed",
+    "validation_evidence_ids": [
+      "VAL-006"
+    ],
+    "project_parameters": {
+      "heat_load_kw": 180,
+      "flow_lpm": 240,
+      "inlet_temp_c": 20,
+      "outlet_temp_c": 32,
+      "pressure_drop_kpa": 30,
+      "voltage_v": 400,
+      "frequency_hz": 50,
+      "width_mm": 980,
+      "depth_mm": 1100,
+      "height_mm": 1980,
+      "redundancy": "n+1_pumps",
+      "communication_protocol": "Modbus TCP",
+      "environmental_rating": "IP54"
+    }
+  },
+  {
+    "source_id": "MAN-THERM-001",
+    "title": "Thermal Application Manual",
+    "document_type": "manual",
+    "revision": "1.4",
+    "effective_date": "2022-03-01",
+    "locator": "\u00a73.2 pp. 18\u201322",
+    "status": "superseded",
+    "product_architecture": "all",
+    "text": "Allowed propylene glycol concentration through 40% and ambient temperature through 45 \u00b0C. This revision is superseded and must not control selection.",
+    "applicable_constraints": {
+      "max_glycol_pct": 40,
+      "max_ambient_c": 45
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "MAN-THERM-002",
+    "title": "Thermal Application Manual",
+    "document_type": "manual",
+    "revision": "2.1",
+    "effective_date": "2026-01-10",
+    "locator": "\u00a73.2 pp. 20\u201325",
+    "status": "current",
+    "product_architecture": "all",
+    "text": "Current validated envelope: heat load 40\u2013400 kW, ambient 5\u201342 \u00b0C, propylene glycol 0\u201335%, inlet 15\u201330 \u00b0C. Applications outside require additional information and new validation.",
+    "applicable_constraints": {
+      "min_heat_kw": 40,
+      "max_heat_kw": 400,
+      "max_ambient_c": 42,
+      "max_glycol_pct": 35
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "MAN-CONTROL-001",
+    "title": "Electrical and Controls Integration Manual",
+    "document_type": "manual",
+    "revision": "1.3",
+    "effective_date": "2025-11-04",
+    "locator": "\u00a74\u20137 pp. 30\u201358",
+    "status": "current",
+    "product_architecture": "all",
+    "text": "Supported supplies are architecture-specific at 50 or 60 Hz. Current protocols: Modbus TCP, BACnet/IP, and EtherNet/IP. 2N controls require dual-loop or modular architecture.",
+    "applicable_constraints": {},
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "VAL-001",
+    "title": "Aquila SL-90 thermal validation",
+    "document_type": "validation_report",
+    "revision": "B",
+    "effective_date": "2025-02-12",
+    "locator": "Test 4 pp. 11\u201316",
+    "status": "current",
+    "product_architecture": "single_loop",
+    "text": "Passed 120 kW steady-state duty and 150 L/min flow boundary with water and 25% propylene glycol.",
+    "applicable_constraints": {},
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "VAL-002",
+    "title": "Borealis DL-240 thermal validation",
+    "document_type": "validation_report",
+    "revision": "C",
+    "effective_date": "2026-02-20",
+    "locator": "Tests 6\u20139 pp. 18\u201331",
+    "status": "current",
+    "product_architecture": "dual_loop",
+    "text": "Passed 260 kW thermal duty, 310 L/min, N+1 pump changeover, 400/480 V panels, and IP54 enclosure tests.",
+    "applicable_constraints": {},
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "VAL-003",
+    "title": "Cirrus MA-400 thermal validation",
+    "document_type": "validation_report",
+    "revision": "B",
+    "effective_date": "2026-04-08",
+    "locator": "Tests 2\u201310 pp. 9\u201338",
+    "status": "current",
+    "product_architecture": "modular_array",
+    "text": "Passed 400 kW and 480 L/min validated boundary with 2N control paths at 400 and 480 V.",
+    "applicable_constraints": {},
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "VAL-004",
+    "title": "Low-static-head pump investigation",
+    "document_type": "validation_report",
+    "revision": "A",
+    "effective_date": "2024-07-19",
+    "locator": "Failure run 7 pp. 14\u201319",
+    "status": "historical",
+    "product_architecture": "dual_loop",
+    "text": "PRJ-007 failed: pump inlet cavitation caused unstable flow. The configuration is prohibited without corrected inlet head.",
+    "applicable_constraints": {},
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "VAL-005",
+    "title": "Footprint and service-clearance verification",
+    "document_type": "validation_report",
+    "revision": "A",
+    "effective_date": "2025-08-22",
+    "locator": "\u00a75 pp. 12\u201317",
+    "status": "current",
+    "product_architecture": "all",
+    "text": "Minimum stated product envelopes exclude site service clearance; customer maximum dimensions must contain the equipment envelope.",
+    "applicable_constraints": {},
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "VAL-006",
+    "title": "Extended-load exploratory trial",
+    "document_type": "validation_report",
+    "revision": "DRAFT",
+    "effective_date": "2026-06-03",
+    "locator": "Draft \u00a76 pp. 22\u201328",
+    "status": "draft",
+    "product_architecture": "modular_array",
+    "text": "Exploratory 430 kW points are not validated and must not extend the current 400 kW operating envelope.",
+    "applicable_constraints": {},
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "BUL-FAIL-001",
+    "title": "Corrective bulletin: glycol seal compatibility",
+    "document_type": "failure_bulletin",
+    "revision": "2",
+    "effective_date": "2025-10-10",
+    "locator": "Action 2 p. 3",
+    "status": "current",
+    "product_architecture": "all",
+    "text": "Concentrations above 35% are outside the current validated seal-material envelope.",
+    "applicable_constraints": {},
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "BUL-FAIL-002",
+    "title": "Corrective bulletin: pump inlet cavitation",
+    "document_type": "failure_bulletin",
+    "revision": "1",
+    "effective_date": "2024-08-01",
+    "locator": "Required action p. 2",
+    "status": "current",
+    "product_architecture": "dual_loop",
+    "text": "Disqualify PRJ-007 as a starting configuration. Verify inlet static head and use revised pump inlet geometry.",
+    "applicable_constraints": {},
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "BUL-FAIL-003",
+    "title": "Corrective bulletin: 208 V contactor derating",
+    "document_type": "failure_bulletin",
+    "revision": "1",
+    "effective_date": "2025-05-14",
+    "locator": "Applicability p. 1",
+    "status": "current",
+    "product_architecture": "single_loop",
+    "text": "208 V is supported only by Aquila single-loop panels; it is incompatible with Borealis and Cirrus architectures.",
+    "applicable_constraints": {},
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "BUL-FAIL-004",
+    "title": "Corrective bulletin: compact 2N cabinet clearance",
+    "document_type": "failure_bulletin",
+    "revision": "1",
+    "effective_date": "2026-03-12",
+    "locator": "Constraint p. 2",
+    "status": "current",
+    "product_architecture": "all",
+    "text": "A 2N arrangement cannot be packaged below 980 mm width and requires dual-loop or modular controls.",
+    "applicable_constraints": {},
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "REV-001",
+    "title": "Revision notice: Thermal Manual 2.1",
+    "document_type": "revision_notice",
+    "revision": "1",
+    "effective_date": "2026-01-10",
+    "locator": "Change table p. 1",
+    "status": "current",
+    "product_architecture": "all",
+    "text": "MAN-THERM-002 supersedes MAN-THERM-001. Current glycol maximum is 35%, ambient maximum 42 \u00b0C.",
+    "applicable_constraints": {
+      "supersedes": "MAN-THERM-001",
+      "current_source": "MAN-THERM-002"
+    },
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "REV-002",
+    "title": "Revision notice: glycol envelope reduction",
+    "document_type": "revision_notice",
+    "revision": "1",
+    "effective_date": "2025-10-10",
+    "locator": "Change 04 p. 2",
+    "status": "current",
+    "product_architecture": "all",
+    "text": "The former 40% glycol allowance is withdrawn; use 35% maximum pending further validation.",
+    "applicable_constraints": {},
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "REV-003",
+    "title": "Revision notice: controls protocol list",
+    "document_type": "revision_notice",
+    "revision": "2",
+    "effective_date": "2026-02-01",
+    "locator": "Change 02 p. 1",
+    "status": "current",
+    "product_architecture": "all",
+    "text": "EtherNet/IP added for Cirrus; supported protocol list aligned with MAN-CONTROL-001 revision 1.3.",
+    "applicable_constraints": {},
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  },
+  {
+    "source_id": "PROC-REV-001",
+    "title": "Preliminary engineering concept review procedure",
+    "document_type": "procedure",
+    "revision": "3",
+    "effective_date": "2026-05-01",
+    "locator": "Steps 1\u20138 pp. 4\u20139",
+    "status": "current",
+    "product_architecture": "all",
+    "text": "A qualified reviewer must inspect requirements, calculations, evidence, exclusions, and schematic. Missing critical fields or outside-range status prohibits approval for concept review.",
+    "applicable_constraints": {},
+    "provenance": {
+      "origin": "fictional Northstar controlled corpus",
+      "created_for": "portfolio demonstration"
+    }
+  }
+]

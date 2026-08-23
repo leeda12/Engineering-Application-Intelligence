@@ -1,0 +1,24 @@
+{
+  "name": "engineering-application-intelligence",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "concurrently -k \"npm:dev:backend\" \"npm:dev:frontend\"",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload",
+    "install:all": "npm install && npm --prefix frontend install && python -m pip install -r backend/requirements.txt",
+    "model:embed": "node scripts/embed-corpus.mjs",
+    "data:generate": "python scripts/generate_fixtures.py",
+    "test": "python -m pytest backend/tests -q && npm --prefix frontend test",
+    "test:postgres": "python scripts/validate_postgres.py",
+    "lint": "npm --prefix frontend run lint",
+    "typecheck": "npm --prefix frontend run typecheck",
+    "build": "npm --prefix frontend run build",
+    "validate": "python scripts/validate_system.py && npm run lint && npm run typecheck && npm run test && npm run build"
+  },
+  "devDependencies": {
+    "@huggingface/transformers": "3.7.2",
+    "concurrently": "9.2.1"
+  }
+}

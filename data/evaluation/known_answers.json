@@ -1,0 +1,10 @@
+[
+  {"id":"EVAL-01","query":"PRJ-024 exact precedent","expected":["PRJ-024"],"kind":"exact_identifier"},
+  {"id":"EVAL-02","query":"redundant facility-water isolated cooling for a dense compute row","expected":["PRJ-024","PRJ-012"],"kind":"semantic_paraphrase"},
+  {"id":"EVAL-03","query":"180 kW 205 L/min 35 kPa Modbus","expected":["PRJ-024"],"kind":"numerical_constraints"},
+  {"id":"EVAL-04","query":"current glycol operating envelope","expected":["MAN-THERM-002"],"forbidden_top":["MAN-THERM-001"],"kind":"revision_precedence"},
+  {"id":"EVAL-05","query":"pump cavitation validation failure","expected":["BUL-FAIL-002","VAL-004","PRJ-007"],"kind":"failed_design"},
+  {"id":"EVAL-06","query":"project lacking complete thermal test evidence","expected":["PRJ-016"],"kind":"missing_evidence"},
+  {"id":"EVAL-07","query":"conflict with superseded 40 percent glycol allowance","expected":["REV-002","MAN-THERM-001","MAN-THERM-002"],"kind":"contradictory_evidence"},
+  {"id":"EVAL-08","query":"application above validated 320 kW range","expected":["MAN-THERM-002","VAL-006"],"kind":"out_of_range"}
+]
