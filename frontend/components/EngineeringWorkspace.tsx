@@ -50,7 +50,7 @@ export function EngineeringWorkspace(){
       </section>
     </div>
     {opened&&<div className="drawer" role="dialog" aria-modal="true" aria-label="Evidence source"><button className="scrim" onClick={()=>setOpenedState(null)} aria-label="Close evidence"/><article><button className="close" onClick={()=>setOpenedState(null)}>Close ×</button><p className="eyebrow">{opened.document_type.replaceAll("_"," ")} · {opened.source_id}</p><h2>{opened.title}</h2><div className="source-meta"><span>Rev {opened.revision}</span><span className={`status ${opened.status}`}>{evidenceDesignation(opened)}</span><span>{opened.locator}</span></div><p>{opened.excerpt}</p>{!opened.recommendation_eligible&&<div className="alert error"><strong>{evidenceDesignation(opened)}</strong><span>{opened.disqualification_reasons.join("; ")}</span></div>}<h3>Transparent relevance score</h3>{opened.score_breakdown.map(x=><div className="scoreline" key={x.name}><span>{x.name.replaceAll("_"," ")}</span><progress value={x.raw} max="1"/><b>{(x.raw*100).toFixed(1)}% · {(x.contribution*100).toFixed(1)} pts</b></div>)}<p className="fictional">FICTIONAL CONTROLLED SOURCE</p></article></div>}
-    <footer><span>Designed and built by Adeel Ahmed</span></footer>
+    <footer><span>© 2026 Adeel Tagar. All rights reserved.</span><span>Northstar Thermal Systems · Fictional demonstration environment</span><span>Preliminary engineering only · qualified human review required</span></footer>
   </main>
 }
 
