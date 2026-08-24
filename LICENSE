@@ -1,3 +1,18 @@
-Copyright (c) 2026. All rights reserved.
+Copyright © 2026 Adeel Tagar. All rights reserved.
 
-This portfolio source and its fictional demonstration data may be reviewed but may not be copied, redistributed, deployed, or used commercially without written permission. Third-party model files retain their Apache-2.0 license as documented separately.
+This repository is publicly available for portfolio review and evaluation only.
+
+No license is granted to copy, modify, reproduce, redistribute, sublicense,
+deploy, publish, sell, or use this software or its fictional demonstration
+data for commercial or non-commercial purposes without prior written
+permission from the copyright holder.
+
+THE SOFTWARE IS PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+Third-party libraries, dependencies, model files, and other bundled assets
+remain subject to their respective licenses. The bundled embedding model and
+associated files retain their separately documented Apache License 2.0 terms.
