@@ -1,6 +1,6 @@
 # Engineering Application Intelligence
 
-**Noctra** is the provisional umbrella identifier for this portfolio project. **Engineering Application Intelligence** is the product: a governed, evidence-grounded preliminary-design workspace. **Northstar Thermal Systems** appears only as fictional demonstration content for an invented industrial liquid-cooling company.
+An evidence-grounded preliminary design workspace. **Northstar Thermal Systems** appears only as fictional demonstration content for an invented industrial liquid-cooling company.
 
 > **Fictional demonstration and engineering boundary:** All engineering data, organizations, customers, products, projects, source documents, part identifiers, values, and outcomes are fictional. This application is not certified engineering software. Every output is preliminary and requires qualified human review. No employer systems or real customer data are connected.
 
